@@ -11,16 +11,11 @@ from torchvision import transforms
 from collections import OrderedDict
 from dataset import *
 import sys
-sys.path.insert(0, '../pytorch/')
 from train import *
 from lr_analyzer import *
 from criterion import *
 # Local import
-sys.path.insert(0, '../src/pytorch/models/')
-sys.path.insert(0, '../pytorch/models/')
-print(sys.path)
 from Unet import UNet
-sys.path.insert(0, '../src/pytorch/')
 from dataset import *
 
 import os
